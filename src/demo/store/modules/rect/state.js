@@ -15,7 +15,7 @@ export default {
             'aspectRatio': false,
             'zIndex': 1,
             'color': '#EF9A9A',
-            'active': false
+            'active': true
         },
         {
             'width': 200,
@@ -32,7 +32,7 @@ export default {
             'aspectRatio': false,
             'zIndex': 2,
             'color': '#AED581',
-            'active': false
+            'active': true
         },
         {
             'width': 200,
@@ -49,7 +49,7 @@ export default {
             'aspectRatio': false,
             'zIndex': 3,
             'color': '#81D4FA',
-            'active': false
+            'active': true
         }
     ]
 };

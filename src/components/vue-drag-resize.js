@@ -390,10 +390,11 @@ export default {
         },
 
         stickDown: function (stick, ev) {
-            if (!this.isResizable || !this.active) {
+            if (!this.isResizable) {
                 return
             }
 
+            this.active = true
             this.stickDrag = true;
             this.stickStartPos.mouseX = typeof ev.pageX !== 'undefined' ? ev.pageX : ev.touches[0].pageX;
             this.stickStartPos.mouseY = typeof ev.pageY !== 'undefined' ? ev.pageY : ev.touches[0].pageY;
